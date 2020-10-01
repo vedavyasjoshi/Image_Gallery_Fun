@@ -8,7 +8,7 @@ const panels=document.querySelectorAll('.panel');
     }
 
     function toggleOpenActive(e){
-        // console.log(e.propertyName);
+        console.log(e.propertyName);
         if(e.propertyName.includes('flex-grow')){
           this.classList.toggle('open-active');
         }
